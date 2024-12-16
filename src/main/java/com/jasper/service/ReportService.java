@@ -39,40 +39,287 @@ public class ReportService {
                 "JAVA Developer",        // Role
                 "Mar",                   // Month
                 21,                      // Date
-                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(5, 0),      // Monday time
                 LocalTime.of(9, 30),     // Tuesday time
                 LocalTime.of(8, 45),     // Wednesday time
                 LocalTime.of(10, 0),     // Thursday time
                 LocalTime.of(9, 15),     // Friday time
                 LocalTime.of(0, 0),      // Saturday time (off day)
-                LocalTime.of(0, 0)       // Sunday time (off day)
+                LocalTime.of(0, 0) ,
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24                       // Sunday Date// Sunday time (off day)
         ));
         studentScoreDetails.add(new TimeSheetTableDetails(
                 "Rohit",                  // Name
                 "Python Developer",        // Role
                 "Mar",                   // Month
-                21,                      // Date
+                22,                      // Date
                 LocalTime.of(9, 0),      // Monday time
                 LocalTime.of(9, 30),     // Tuesday time
                 LocalTime.of(8, 45),     // Wednesday time
                 LocalTime.of(1, 0),     // Thursday time
                 LocalTime.of(9, 15),     // Friday time
                 LocalTime.of(0, 0),      // Saturday time (off day)
-                LocalTime.of(0, 0)       // Sunday time (off day)
+                LocalTime.of(0, 0) ,
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
         ));
         studentScoreDetails.add(new TimeSheetTableDetails(
                 "Rana",                  // Name
                 "C++ Developer",        // Role
                 "Mar",                   // Month
-                21,                      // Date
+                23,                      // Date
                 LocalTime.of(9, 0),      // Monday time
                 LocalTime.of(9, 30),     // Tuesday time
                 LocalTime.of(8, 45),     // Wednesday time
                 LocalTime.of(10, 0),     // Thursday time
                 LocalTime.of(2, 15),     // Friday time
                 LocalTime.of(0, 0),      // Saturday time (off day)
-                LocalTime.of(0, 0)       // Sunday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Suman",                  // Name
+                "C Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Raman",                  // Name
+                "Angular Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Raju",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Virat",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Rahul",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Jaiswal",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Bumrah",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Naman",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
         ));
+studentScoreDetails.add(new TimeSheetTableDetails(
+                "Modi",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Rahul Gandhi",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));studentScoreDetails.add(new TimeSheetTableDetails(
+                "Sudhir Gandhi",                  // Name
+                "DEVOPs Developer",        // Role
+                "Mar",                   // Month
+                23,                      // Date
+                LocalTime.of(9, 0),      // Monday time
+                LocalTime.of(9, 30),     // Tuesday time
+                LocalTime.of(8, 45),     // Wednesday time
+                LocalTime.of(10, 0),     // Thursday time
+                LocalTime.of(2, 15),     // Friday time
+                LocalTime.of(0, 0),      // Saturday time (off day)
+                LocalTime.of(0, 0),
+                18,                      // Monday Date
+                19,                      // Tuesday Date
+                20,                      // Wednesday Date
+                21,                      // Thursday Date
+                22,                      // Friday Date
+                23,                      // Saturday Date
+                24  // Sunday time (off day)
+        ));
+
+        int totalHours = 0;
+        // Calculate total hours for each user (ignoring minutes)
+        for (TimeSheetTableDetails user : studentScoreDetails) {
+
+            // Sum up hours for each day worked (ignore minutes)
+            totalHours += user.getTimeMon().getHour();
+            totalHours += user.getTimeTue().getHour();
+            totalHours += user.getTimeWed().getHour();
+            totalHours += user.getTimeThu().getHour();
+            totalHours += user.getTimeFri().getHour();
+            // No need to add Saturday and Sunday as they are off days (time is 0)
+
+            // Output the total hours as an integer
+          //  System.out.println(user.getName() + " worked a total of " + totalHours + " hours.");
+        }
 
 
         JRBeanCollectionDataSource tabledataSource = new JRBeanCollectionDataSource(studentScoreDetails);
@@ -83,7 +330,7 @@ public class ReportService {
         parameters.put("companyName","Google");
         parameters.put("year",2009);
         parameters.put("week",12);
-        parameters.put("totalhours",223);
+        parameters.put("totalhours",totalHours);
 
         JasperPrint jp = JasperFillManager.fillReport(jasperReport,parameters,ds);
 
